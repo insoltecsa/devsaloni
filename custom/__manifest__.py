@@ -6,7 +6,7 @@
         customizaciones de insoltecsa """,
 
     'description': """
-        Byron Estrada desarrollos customizados de insoltecs
+        Byron Estrada desarrollos customizados de insoltecsa
     """,
 
     'author': "Insoltecsa",
