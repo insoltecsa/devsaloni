@@ -14,6 +14,8 @@
                 <field name="vat" position="after">
                     <field name="no_validar_nit"></field>
                     <field name="cui"></field>
+                    <field name="dia_cumpleanios"></field>
+                    <field name="mes_cumpleanios"></field>
                 </field>
             </field>
         </record>
