@@ -19,3 +19,6 @@ class Partner(models.Model):
         ('11', 'Noviembre'),                                
         ('12', 'Diciembre')        
     ])
+
+    position = fields.Selection([('before', 'Before'),
+                                ('after', 'After')], string='Position')
