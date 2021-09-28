@@ -4,7 +4,7 @@ import logging
 class Partner(models.Model):
     _inherit = "res.partner"
 
-    dia_cumpleanios =  fields.Integer()
+    dia_cumpleanios =  fields.Integer(string='Dia cumpleaños')
     mes_cumpleanios = fields.Selection([
         ('1', 'Enero'),
         ('2', 'Febrero'),
