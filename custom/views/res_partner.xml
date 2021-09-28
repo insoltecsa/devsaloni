@@ -1,10 +1,9 @@
 <openerp>
     <data>
-        <record model="ir.ui.view" id="custom.view_custom_partner">
-            <field name="name">custom.res_partner</field>
+        <record model="ir.ui.view" id="view_partner_form">
+            <field name="name">res.partner.form.inherit</field>
             <field name="model">res.partner</field>
             <field name="inherit_id" ref="base.view_partner_form"/>
-            <field name="type">form</field>
             <field name="arch" type="xml">
                 <field name="email" position="after">
                     <field name="dia_cumpleanios"></field>
