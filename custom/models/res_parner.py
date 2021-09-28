@@ -6,7 +6,7 @@ class Partner(models.Model):
 
     dia_cumpleanios =  fields.Integer()
     mes_cumpleanios = fields.Selection([
-        (1, "Enero"),
+        (1, 'Enero'),
         (2, 'Febrero'),
         (3, 'Marzo'),
         (4, 'Abril'),
