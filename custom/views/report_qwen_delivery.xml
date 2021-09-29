@@ -10,5 +10,6 @@
                         <th class="text-right">Price</th>
                     </tr>
 	    </xpath>
+        </template>
     </data>
 </openerp>
