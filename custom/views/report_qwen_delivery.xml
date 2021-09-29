@@ -1,7 +1,7 @@
 <openerp>
     <data>
         <!-- Inherit quotation report (from module sale) -->
-        <template id="report_delivery_inherit_inso" inherit_id="stock.report_deliveryslip">
+        <template id="report_delivery_inherit_inso" inherit_id="stock.report_delivery_document">
 	    <!-- Finds the first table with as class table table-condensed and gives the ability to modify it
 		 This will replace everything withing tr (including tr)-->
 	    <xpath expr="(//p)[position()=last()]" position="after">
