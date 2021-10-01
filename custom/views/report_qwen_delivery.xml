@@ -2,6 +2,7 @@
     <data>
         <template id="report_delivery_inherit_inso" inherit_id="stock.report_delivery_document">
 	    <xpath expr="//div[@t-if='o.signature']" position="after">
+                <div>    
                     <table width="100%" border="0" style="margin-top: 100px;">
                     <tr>
                         <td width="10%"></td>
@@ -11,6 +12,7 @@
                         <td width="10%"></td>
                     </tr>
                     </table>
+                </div>    
 	    </xpath>
         </template>
     </data>
