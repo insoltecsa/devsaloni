@@ -3,7 +3,7 @@
         <template id="report_delivery_inherit_inso" inherit_id="stock.report_delivery_document">
 	    <xpath expr="//div[@t-if='o.signature']" position="before">
                     <div class="col-auto mw-100 mb-2">
-                    <table width="100%" border="0" style="margin-top: 100px;">
+                    <table width="100%" border="0" style="border: none !important; margin-top: 100px;">
                         <tr>
                             <th width="10%"></th>
                             <th width="30%"><hr/></th>
