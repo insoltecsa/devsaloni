@@ -5,9 +5,13 @@
                     <table width="100%" style="margin-top: 100px;">
                         <tr>
                             <td width="10%"></td>
-                            <td width="30%"><hr style="width:50%"></hr></td>
+                            <td width="30%">
+                            &ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;
+                            </td>
                             <td width="20"></td>
-                            <td width="30%"><hr style="width:50%"></hr></td>
+                            <td width="30%">
+                            &ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;
+                            </td>
                             <td width="10%"></td>
                         </tr>
                     </table>
