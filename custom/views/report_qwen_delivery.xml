@@ -2,12 +2,46 @@
     <data>
         <template id="report_delivery_inherit_inso" inherit_id="stock.report_delivery_document">
 	    <xpath expr="//div[@t-if='o.signature']" position="before">
-                    <div class="col-auto mw-100 mb-2">
-                        <tr style="background-color:lightgray;">
-                            <th>Description</th>
-                            <th class="text-right">Price</th>
-                        </tr>
-                    </div>
+                 <table width="100%" style="margin-top: 100px;">
+                    <tr>
+                        <td width="10%"></td>
+                        <td width="30%"><hr width=100%></td>
+                        <td width="20"></td>
+                        <td width="30%"><hr width=200></td>
+                        <td width="10%"></td>
+                    </tr>
+                    <tr>
+                        <td width="10%"></td>
+                        <td width="30%" align="center">Entrega</td>
+                        <td width="20"></td>
+                        <td width="30%" align="center">Recibe</td>
+                        <td width="10%"></td>
+                    </tr>
+                    <tr>
+                        <td colspan=4>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td width="10%"></td>
+                        <td width="30%" align="left">Nombre:</td>
+                        <td width="20"></td>
+                        <td width="30%" align="left">Nombre:</td>
+                        <td width="10%"></td>
+                    </tr>
+                    <tr>
+                        <td width="10%"></td>
+                        <td width="30%"></td>
+                        <td width="20"></td>
+                        <td width="30%" align="left">Fecha Hora:</td>
+                        <td width="10%"></td>
+                    </tr>
+                        <tr>
+                        <td width="10%"></td>
+                        <td width="30%"></td>
+                        <td width="20"></td>
+                        <td width="30%" align="left">DPI:</td>
+                        <td width="10%"></td>
+                    </tr>
+                </table>
 	    </xpath>
         </template>
     </data>
