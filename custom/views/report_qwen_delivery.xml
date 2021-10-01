@@ -6,9 +6,9 @@
                     <table width="100%" border="0" style="border: none !important; margin-top: 100px;">
                         <tr>
                             <th width="10%"></th>
-                            <th width="30%"><hr style="border: 1px solid black;"/></th>
+                            <th width="30%"><hr style="border: 0.5px solid black;"/></th>
                             <th width="20"></th>
-                            <th width="30%"><hr style="border: 1px solid black;"/></th>
+                            <th width="30%"><hr style="border: 0.5px solid black;"/></th>
                             <th width="10%"></th>
                         </tr>
                         </table>
