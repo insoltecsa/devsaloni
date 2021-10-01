@@ -5,9 +5,9 @@
                     <table width="100%" style="margin-top: 100px;">
                         <tr>
                             <td width="10%"></td>
-                            <td width="30%">____________________</td>
+                            <td width="30%"><hr style="width:50%"></td>
                             <td width="20"></td>
-                            <td width="30%">_____________________</td>
+                            <td width="30%"><hr style="width:50%"></td>
                             <td width="10%"></td>
                         </tr>
                     </table>
