@@ -6,7 +6,7 @@
 	    </xpath>
    	    <xpath expr="//td[@name='td_name']" position="before">
                  <td name="td_imagen">
-                  <img t-att-src="image_data_uri(doc.image_128)" style="max-height: 4cm; max-width: 8cm;"/>
+                  <img t-att-src="image_data_uri(line.product_template_id.image_128)" style="max-height: 4cm; max-width: 8cm;"/>
                  </td>
 	    </xpath>
         </template>
