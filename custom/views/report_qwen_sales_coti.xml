@@ -1,0 +1,12 @@
+<openerp>
+    <data>
+        <template id="report_sales_inherit_coti" inherit_id="sale.report_saleorder_document">
+	    <xpath expr="//th[@name='th_description']" position="before">
+                 <th name="th_imagen" class="text-left">Imagen</th>
+	    </xpath>
+   	    <xpath expr="//td[@name='td_name']" position="before">
+                 <td name="td_imagen"><span t-field="line.name"/></td>
+	    </xpath>
+        </template>
+    </data>
+</openerp>
