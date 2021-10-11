@@ -14,7 +14,7 @@
                  </t>
                  </td>
 	    </xpath>
-      <xpath expr="//td[@name='th_subtotal']" position="before">
+      <xpath expr="//th[@name='th_subtotal']" position="before">
                  <th name="th_total" class="text-right">Total</th>
 	    </xpath>
       <xpath expr="//td[@name='td_subtotal']" position="before">
