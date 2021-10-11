@@ -14,10 +14,10 @@
                  </t>
                  </td>
 	    </xpath>
-      <xpath expr="//th[@name='th_subtotal']" position="before">
+      <xpath expr="//th[@name='th_subtotal']" position="after">
                  <th name="th_total" class="text-right">Total</th>
 	    </xpath>
-      <xpath expr="//td[@name='td_subtotal']" position="before">
+      <xpath expr="//td[@name='td_subtotal']" position="after">
                  <td name="td_subtotal" class="text-right o_price_total">
                     <span t-field="line.price_total"/>
                  </td>
